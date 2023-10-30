@@ -11,7 +11,7 @@ const Pulsar = require('pulsar-client');
         operationTimeoutSeconds: 30,
     });
 
-    const topic = 'persistent://public/default/produce-read-delayed2';
+    const topic = 'persistent://public/default/produce-read-delayed';
     const producer = await client.createProducer({
         topic,
         sendTimeoutMs: 100,

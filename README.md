@@ -13,6 +13,5 @@ docker run -it -p 6650:6650 -p 8080:8080 apachepulsar/pulsar:3.0.1 bin/pulsar st
 
 ## 3. Test delayed message
 ```shell
-
-
+node delayed_message_test.js
 ```
